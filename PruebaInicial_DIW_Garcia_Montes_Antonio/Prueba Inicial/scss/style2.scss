@@ -1,0 +1,23 @@
+$background-color: #333;
+$color: white;
+$padding: 10px;
+$text-align-center: center;
+
+$navbar: rgba(207, 204, 204, 0.8);
+
+.navbar{
+  background-color: $navbar;
+}
+
+.footer {
+  background-color: $background-color;
+  color: $color;
+  padding: $padding;
+  text-align: $text-align-center;
+}
+
+/*Bucle for*/
+
+@for $tamano from 1 to 4 {
+  .parrafo-#{$tamano} { font-size: 0.75em * $tamano; }
+}

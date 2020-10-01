@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+    <!-- Estilos internos -->
+    <style>
+        .container {
+            width: 80%;
+        }
+
+        #header {
+            margin: 15px auto;
+        }
+
+        a {
+            color: black;
+        }
+
+        .materias {
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navegador con bootstrap -->
+        <nav class="navbar navbar-expand-lg">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#info">DATOS PERSONALES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#educ">EDUCACIÓN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#exp">EXPERIENCIA LABORAL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#comp">COMPETENCIAS PERSONALES</a>
+                </li>
+            </ul>
+        </nav>
+        <header class="header">
+            <h2 id="header">Currículum Vitae</h2>
+        </header>
+        <section class="">
+            <article id="info" class="grid-container information">
+                <div class="colum1">
+                    <h4>INFORMACIÓN PERSONAL</h4>
+                </div>
+                <div class="colum2">
+                    <span>
+                        <p>Antonio García Montes</p>
+                    </span>
+                    <span>
+                        <p>C/Azucena 32, 41940 Sevilla (España) </p>
+                    </span>
+                    <span>
+                        <p>(+34) 696 935 127 </p>
+                    </span>
+                    <span>
+                        <p>antoniogarcia95@outlook.es</p>
+                    </span>
+                </div>
+            </article>
+            <article id="educ" class="grid-container education">
+                <div class="colum1">
+                    <h4 class="border_bottom">EDUCACIÓN Y FORMACIÓN</h4>
+                </div>
+                <div class="colum2">
+                    <div>
+                        <h5>15/09/2012–31/05/2015</h5>
+                        <h4>Bachillerato de ciencias y tecnología</h4>
+                        <p>IES Atenea, Mairena del Aljarafe (España)</p>
+                    </div>
+                    <div>
+                        <h5>20/07/2016–20/07/2017</h5>
+                        <h4>Curso de programación de páginas web</h4>
+                        <p>Master D, Sevilla (España)</p>
+                        <p>principales materias cursadas:</p>
+                        <p>HTML, CSS, JS, AJAX, SQL y PHP.</p>
+                    </div>.h4, h4 {
+                    font-size: 1.5rem;
+                    }
+                    <div>
+                        <h5>15/09/2019–presente</h5>
+                        <h4>Grado Superior de desarrollo web</h4>
+                        <p>IES Alixar</p>
+                        <p>materias cursadas:</p>
+                        <ul class="materias">
+                            <li>Lenguaje de Marcas</li>
+                            <li>Programación</li>
+                            <li>Base de Datos</li>
+                            <li>Sistemas Informáticos</li>
+                            <li>Entorno de Desarrollo</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article id="exp" class="grid-container experience">
+                <div class="colum1">
+                    <h4 class="border_bottom">EXPERIENCIA PROFESIONAL</h4>
+                </div>
+                <div class="colum2">
+                    <div class="colum">
+                        <h5>01/03/2018–10/06/2018</h5>
+                    </div>
+                    <div class="colum">
+                        <h4>Desarrollador de aplicaciones de TIC</h4>
+                        <p>Informática Bocanegra, San Juan de Aznalfarache (España)</p>
+                        <p>- Desarrollo de Aplicación Web y base de datos en local con PHP y MySQL</p>
+                    </div>
+                </div>
+            </article>
+            <article id="comp" class="grid-container competences">
+                <div class="colum1">
+                    <h4 class="border_bottom">COMPETENCIAS PERSONALES</h4>
+                </div>
+                <div class="colum2">
+                    <div class="colum">
+                        <div>
+                            <h5>Lengua materna</h5>
+                        </div>
+                        <div>
+                            <p>Español</p>
+                        </div>
+                    </div>
+                    <div class="colum">
+                        <div>
+                            <h5>Lengua extrajera</h5>
+                        </div>
+                        <div>
+                            <p>Inglés - B1</p>
+                            <p>Francés - A1</p>
+                        </div>
+                    </div>
+                    <div class="colum">
+                        <h5>Competencias digitales</h5>
+                        <div>
+                            <p>Paquete Office</p>
+                        </div>
+                        <div>
+                            <p>Usuario Independiente</p>
+                        </div>
+                    </div>
+                    <div class="colum">
+                        <div>
+                            <h5>Permiso de conducir</h5>
+                        </div>
+                        <div>
+                            <p>Si</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div class="topPaginasProg">
+                <h4>Módulos aprendidos</h4>
+                <ol>
+                    <li>
+                        <h5>Lenguaje de Marcas</h5>
+                        <p>En lenguaje de Marcas hemos aprendido HTML5, CSS3, Bootstrap, Sass y Gulp. 
+                            A continuación os dejamos las referencias que hemos utilizado</p>
+                        <a href="https://www.w3schools.com/"><img src="img/html5_css3.png" alt=""/></a>
+                        <a href="https://getbootstrap.com/"><img src="img/bootstrap-stack.png" alt=""/></a>
+                        <a href="https://sass-lang.com/"><img src="img/sass.png" alt=""/></a>
+                    </li>
+                    <li>
+                        <h5>Programación</h5>
+                        <p>En programación hemos aprendido Java, uno de los lenguajes de programación utilizados hoy en día.</p>
+                        <a href="https://docs.oracle.com/javase/7/docs/api/"><img src="img/java.png" alt=""></a>
+                    </li>
+                    <li>
+                        <h5>Bases de Datos</h5>
+                        <p>En Bases de Datos hemos visto principalmente sentencias SQL.</p>
+                        <a href="https://www.w3schools.com/sql/"><img src="img/sql.png" alt=""></a>
+                    </li>
+                </ol>
+            </div>
+
+            <!--Animación con CSS-->
+
+            <h3>Aquí se muestran varios ejemplos de animaciónes CSS</h3>
+            <div class="middle">
+                <a href="" class="btn btn1">Hover Me</a>
+                <a href="" class="btn btn2">Hover Me</a>
+                <a href="" class="btn btn3">Hover Me</a>
+                <a href="" class="btn btn4">Hover Me</a>
+            </div>
+        </section>
+
+        <!--ejemplo de bucle for con sass-->
+
+        <div class="contenedor">
+            <h4>Ejemplo de bucle for con sass</h4>
+            <p class="parrafo-1">Éste es el párrafo 1</p>
+            <p class="parrafo-2">Éste es el párrafo 2</p>
+            <p class="parrafo-3">Éste es el párrafo 3</p>
+        </div>
+        <footer>
+            <div class="footer">
+                <p>Copyright © 2020 Antonio García Montes. Todos los derechos reservados</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
