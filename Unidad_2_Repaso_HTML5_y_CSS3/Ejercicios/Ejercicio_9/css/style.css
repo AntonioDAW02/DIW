@@ -1,5 +1,7 @@
-* {
-    box-sizing: border-box;
+.head {
+    background-color: rgb(177, 167, 167);
+    padding: 10px;
+    color: #000;
 }
 
 #contenedor {
@@ -25,6 +27,10 @@
 #cabecera #logo a:hover {
     color: #B5C4E3;
     text-decoration: underline;
+}
+
+#logo {
+    margin: 0;
 }
 
 input[type="text"] {
@@ -200,7 +206,5 @@ input[type="text"] {
 #pie p {
     margin: 0;
     padding: 0;
-    position: absolute;
     top: 10px;
-    left: 40px;
 }
