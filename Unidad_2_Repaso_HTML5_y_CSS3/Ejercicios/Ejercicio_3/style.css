@@ -1,0 +1,52 @@
+* {
+    color: #00f;
+    background-color: #cfc;
+    font-family: Georgia, Cambria, serif;
+    font-size: 16px;
+}
+
+header,
+.header h1,
+.header p {
+    color: #000;
+    background-color: rgb(177, 167, 167);
+    padding: 5px;
+}
+
+
+/*Encabezados*/
+
+h1,
+h2 {
+    font-family: Verdana, Calibri, sans-serif;
+}
+
+
+/*Encabezado de nivel 1*/
+
+h1 {
+    color: #f00;
+    font-size: 32px;
+}
+
+
+/*Encabezado de nivel 2*/
+
+h2 {
+    color: #a00;
+    font-size: 24px;
+}
+
+ul li::first-letter {
+    color: #060;
+}
+
+.palabra {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.palabra2 {
+    color: #FFF;
+    background-color: #000;
+}

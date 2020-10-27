@@ -1,0 +1,308 @@
+/* Estilo de manera externa directamente desde el .css */
+
+
+/* Algunos estilos generales */
+
+#header {
+    margin: 0;
+}
+
+#banner img {
+    position: absolute;
+    z-index: -1;
+    width: 96%;
+    height: auto;
+}
+
+#banner #header {
+    font-size: 25px;
+}
+
+#banner p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+img {
+    float: left;
+    margin-right: 5px;
+    width: 7rem;
+}
+
+#tablaMod:active {
+    background-color: rgb(236, 178, 111);
+}
+
+#listaEjercicios:active {
+    background-color: rgb(252, 243, 115);
+}
+
+#iframeMapa:active {
+    background-color: rgb(141, 170, 250);
+}
+
+
+/*Hacer que los controladores desplieguen el menú*/
+
+#navigation {
+    background-color: rgb(134, 125, 125);
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+
+ul,
+ol,
+li {
+    list-style: outside none none;
+}
+
+header,
+#central-content {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.control-menu {
+    background-color: transparent;
+    background-position: center center;
+    border: 1px solid #fff;
+    display: block;
+    float: right;
+    height: 40px;
+    margin-right: 1.3em;
+    width: 40px;
+}
+
+.control-menu a span {
+    display: inline-block;
+    height: 40px;
+    text-indent: -9999px;
+    width: 40px;
+}
+
+.control-menu .close {
+    background-image: url("../img/close-menu.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.control-menu .open {
+    background-image: url("../img/open-menu.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+ul.nav-items {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+#navigation:target ul.nav-items {
+    height: auto;
+}
+
+p img {
+    clear: both;
+}
+
+
+/*Al hacer clic sobre el enlace que abre el menú éste desaparece*/
+
+.close {
+    display: none;
+}
+
+#navigation:target .open {
+    display: none;
+}
+
+
+/* Al hacer clic sobre el enlace que abre el menú aparece el enlace .close que previamente estaba oculto*/
+
+#navigation:target .close {
+    display: block;
+}
+
+
+/*Estilos menu*/
+
+ul.nav-items li {
+    display: block;
+}
+
+ul.nav-items a {
+    border-bottom: 2px dotted #dddbdb;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 3em;
+    line-height: 3em;
+    margin: 0 1.3em;
+    text-decoration: none;
+}
+
+ul.nav-items li:first-child a {
+    border-top: 2px solid transparent;
+}
+
+ul.nav-items li a span {
+    border-left: 3px solid;
+    /* height: 3.2em; */
+    padding: 0.4em 0.5em;
+}
+
+#perfil a span {
+    border-color: #f74307;
+}
+
+#tablaMod a span {
+    border-color: #ff7e33;
+}
+
+#listaEj a span {
+    border-color: #e0c135;
+}
+
+#iframe a span {
+    border-color: #65a4df;
+}
+
+#ftp a span {
+    border-color: rgb(159, 209, 60);
+}
+
+
+/* Fin estilo menu */
+
+
+/* Lista de módulos - estilos */
+
+.listM {
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Estilos de tabla */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 1rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: rgb(177, 167, 167);
+}
+
+
+/* Fin de estilos de tabla */
+
+
+/* Estilo de las columnas */
+
+.column {
+    columns: 2;
+    column-gap: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    column-rule: 2px dashed rgb(81, 167, 196);
+}
+
+#headcolumn {
+    column-span: all;
+}
+
+
+/* Fin estilo de las columnas */
+
+
+/* Estilo de capas */
+
+.capa img {
+    position: absolute;
+    z-index: -1;
+}
+
+
+/* Fin estilo de capas */
+
+
+/* Estilos de aside - redes sociales */
+
+.social {
+    position: fixed;
+    top: 300px;
+    z-index: 10;
+    right: 0;
+}
+
+.social ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social ul li {
+    margin-bottom: 8px;
+}
+
+.social ul li a {
+    color: #fff;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.icon-facebook {
+    background-color: #3b5998;
+}
+
+.icon-twitter {
+    background-color: #00acee;
+}
+
+.icon-youtube {
+    background-color: #c4302b;
+}
+
+.icon-linkedin {
+    background-color: #0e76a8;
+}
+
+.social ul li a img {
+    width: 25px;
+}
+
+
+/* Fin estilos aside - redes sociales */
+
+
+/* Estilos del footer*/
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(206, 197, 197);
+    text-align: left;
+    margin-top: 5rem;
+    padding: 5px;
+}
+
+
+/* FIn de estilos del footer */
