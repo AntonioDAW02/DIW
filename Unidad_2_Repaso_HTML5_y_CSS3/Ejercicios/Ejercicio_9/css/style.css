@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+#contenedor {
+    background: url("../img/fondo.gif") repeat-x;
+    background-color: #F2F5FE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #192666;
+    margin: 0 auto;
+    width: 770px;
+}
+
+#cabecera {
+    background: url("../img/cabecera.jpg") no-repeat;
+    height: 100px;
+}
+
+#cabecera #logo a {
+    color: #FFF;
+    float: left;
+    padding: 1.75rem 1.5rem;
+}
+
+#cabecera #logo a:hover {
+    color: #B5C4E3;
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    margin: 2rem 12rem;
+    margin-right: 0;
+}
+
+#menu {
+    margin: 0 5px;
+    background: #192666;
+    height: 2rem;
+    padding-top: 10px;
+}
+
+#menu ul {
+    /*background-color: #253575;*/
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu ul li {
+    margin-left: 0.2rem;
+    display: inline;
+}
+
+#menu ul li a {
+    background: #253575;
+    border: 0;
+    color: #B5C4E3;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background: #31479B;
+}
+
+#menu ul li.seleccionado a {
+    background: #FFF;
+    color: #FF9000;
+}
+
+#contenido {
+    width: 760px;
+    margin: 0 5px;
+    background: #FFF;
+}
+
+#principal {
+    float: left;
+    margin-top: 15px;
+    padding: 0 0 0 20px;
+    width: 530px;
+}
+
+#contenido .articulo {
+    padding: 1.5rem;
+    background: url("../img/fondo_articulo.jpg") no-repeat;
+}
+
+#contenido .articulo h2 {
+    margin: 0 -20px;
+    padding: 10px;
+    background: #DEE5FD;
+}
+
+#contenido .info {
+    border-bottom: 1px solid #DEE5FD;
+    color: #6685CC;
+}
+
+#contenido .info a {
+    color: #6685CC;
+}
+
+#contenido .info a:hover {
+    color: #FF9000;
+}
+
+#contenido .info span.fecha {
+    background: url("../img/icono_fecha.gif") 0 50% no-repeat;
+}
+
+#contenido .info>span {
+    margin-left: 5px;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+#contenido .info span.categoria {
+    background: url("../img/icono_categoria.gif") 0 50% no-repeat;
+}
+
+#contenido .info span.autor {
+    background: url("../img/icono_autor.gif") 0 50% no-repeat;
+}
+
+#contenido .info span.comentarios {
+    background: url("../img/icono_comentarios.gif") 0 50% no-repeat;
+}
+
+#secundario {
+    float: left;
+    width: 200px;
+    margin: 15px 0 0 0;
+    padding: 0;
+    background: #CEDBF9 url("../img/fondo_columna.gif") no-repeat;
+}
+
+
+/***********REVISAR Y CAMBIAR ALGUNOS ASPECTOS***************/
+
+#contenido #secundario h3 {
+    padding: 5px;
+    background: #A0B9F3;
+}
+
+#contenido #secundario #sobremi img {
+    float: left;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#contenido #secundario #sobremi p {
+    font-size: 13px;
+    padding-top: 0.4rem;
+}
+
+#contenido #secundario div {
+    padding: 0 0.5rem;
+}
+
+#contenido #secundario ul {
+    padding: 0;
+    list-style: none;
+}
+
+#contenido #secundario ul li {
+    border-bottom: 1px solid #E0E8FA;
+}
+
+#contenido #secundario li a {
+    display: block;
+    padding: 3px 0 3px 22px;
+    background: url("../img/icono_elemento.gif") no-repeat;
+    text-decoration: none;
+}
+
+#contenido #secundario li a:hover {
+    background-color: #E0E8FA;
+    color: #192666;
+}
+
+#contenido #secundario li.seleccionado a {
+    background: #E0E8FA url("../img/icono_elemento_seleccionado.gif") no-repeat;
+    font-weight: bold;
+}
+
+
+/* ---- Pie ---------------------------------------------------------------- */
+
+#pie {
+    clear: both;
+    height: 70px;
+    margin-bottom: 30px;
+    background: url("../img/fondo_pie.jpg") no-repeat;
+    color: #6685CC;
+}
+
+#pie p {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
